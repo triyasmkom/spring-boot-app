@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+    <body>
+        <h1>Spring MVC File Upload Status</h1>
+        <!--  cek atribut message  -->
+        <div th:if="${message}">
+            <!--   jika atribut message ada isinya, cetak     -->
+            <h2 th:text="${message}"/>
+        </div>
+    </body>
+</html>
